@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "npm i && npx playwright install",
     "demo": "npx playwright test tests/test.spec.ts --project chromium --headed"
   },
   "keywords": [],
